@@ -1,0 +1,120 @@
+/* || RESET */
+
+*,*::after,*::before{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+/* || GENERAL ELEMENTS */
+
+body{
+    background-color: papayawhip;
+    font-size: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    min-height: 100vh;
+}
+
+header{
+    padding-top: 1em;
+    padding-bottom: 3em;
+    font-size: 2em;
+}
+
+ul{
+    display:flex;
+    flex-flow: row wrap;
+    list-style-type: none;
+}
+
+a{
+    padding: 0.7em;
+    text-decoration: none;
+}
+
+nav{
+    margin-left: 1em;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    font-size: 1.5em;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 2em;
+    text-align: center;
+}
+
+/* || ELEMENTS STYLES */
+
+
+.header-div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-options{
+    display: flex;
+    align-items: center;
+}
+
+.section-log{
+    display: flex;
+    align-items: center;
+    margin-right: 5em;
+}
+
+.main{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1em;
+}
+
+.main-img{
+    box-shadow: -8px 9px 5px 8px black;
+    border-radius: 10px;
+}
+
+.log-img{
+    margin-right: 1em;
+}
+
+table, th, td{
+    border: 3px solid black;
+    border-collapse: collapse;
+    font-size: 1.2em;
+}
+
+th, td{
+    width: 150px;
+    height: 110px;
+    text-align: center;
+}
+
+h2{
+    margin-bottom: 1em;
+    font-size: 2.5em;
+    text-align: center;
+}
+
+
+a:visited{
+    color: black;
+}
+
+a:active{
+    color:red;
+}
+
+a:hover{
+    background-color: black;
+    color:whitesmoke;
+    border-radius: 5px;
+}
+
+.log-img:hover{
+    cursor: pointer;
+}
